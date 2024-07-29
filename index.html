@@ -37,13 +37,33 @@
     </nav>
     <section id="profile">
         <div class="section_pic-container">
-            <img src="./assets/profile-pic.png" alt="Picture of An Yujin"/>
+            <img src="./assets/yujin.png" alt="Picture of An Yujin"/>
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
             <h1 class="title">Bernardo</h1>
             <p class="section_text_p2">CS Student @ Rutgers University</p>
-        </div>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onClick="window.open('./assets/resume-example.pdf')"
+                >
+                Download Resume
+                </button>
+                <button 
+                class="btn btn-color-1" 
+                onClick="location.href='./#contact'"
+                >
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Linkedin profile"
+                class="icon" 
+                onclick="location.href='https://linkedin.com/in/bernardoxie/'"
+                />
+            </div>
+        </div> 
     </section>
     <script src="script.js"></script>
 </body>
